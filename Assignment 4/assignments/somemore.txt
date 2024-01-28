@@ -1,0 +1,37 @@
+Let's bring back the 'populations' array from a previous assignment
+2. Use a for loop to compute an array called 'percentages2' containing the
+percentages of the world population for the 4 population values. Use the
+function 'percentageOfWorld1' that you created earlier
+3. Confirm that 'percentages2' contains exactly the same values as the
+'percentages' array that we created manually in the previous assignment,
+and reflect on how much better this solution is
+------
+. Store this array of arrays into a variable called 'listOfNeighbours'
+[['Canada', 'Mexico'], ['Spain'], ['Norway', 'Sweden',
+'Russia']];
+2. Log only the neighbouring countries to the console, one by one, not the entire
+arrays. Log a string like 'Neighbour: Canada' for each country
+3. You will need a loop inside a loop for this. This is actually a bit tricky, so don't
+worry if it's too difficult for you! But you can still try to figure this out anyway �
+-----
+
+-----
+Sum Array Exercise
+Write a function called sumArray which accepts a single argument: an array of numbers.  It should return the sum of all the numbers in the array.
+
+sumArray([1,2,3]) // 6
+sumArray([2,2,2,2]) // 8
+sumArray([50,50,1]) // 101
+Hints:
+
+You'll need a variable to keep track of the total.  It should start out as zero.
+
+Loop over the array and for each element, add it to the total variable.
+
+After you have added every number to total, return total.
+-----
+Please write a function called lastElement which accepts a single array argument.  The function should return the last element of the array (without removing the element).  If the array is empty, the function should return null.
+
+lastElement([3,5,7]) //7
+lastElement([1]) //1
+lastElement([]) //null
